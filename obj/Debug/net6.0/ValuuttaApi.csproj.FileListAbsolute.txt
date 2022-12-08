@@ -30,3 +30,4 @@ C:\Users\ilari\vsCodeSource\ValuuttaApi\obj\Debug\net6.0\refint\ValuuttaApi.dll
 C:\Users\ilari\vsCodeSource\ValuuttaApi\obj\Debug\net6.0\ValuuttaApi.pdb
 C:\Users\ilari\vsCodeSource\ValuuttaApi\obj\Debug\net6.0\ValuuttaApi.genruntimeconfig.cache
 C:\Users\ilari\vsCodeSource\ValuuttaApi\obj\Debug\net6.0\ref\ValuuttaApi.dll
+C:\Users\ilari\vsCodeSource\ValuuttaApi\bin\Debug\net6.0\package-lock.json

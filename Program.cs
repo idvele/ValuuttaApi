@@ -1,5 +1,21 @@
 var builder = WebApplication.CreateBuilder(args);
 
+//tämä sallii kaiken liikenteen, muuta rajatuksi
+//cors-settings
+var myCorsPolicy = "MyCorsPolicy";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(myCorsPolicy,
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+            .WithExposedHeaders("x-my-custom-header");
+        });
+});
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -21,5 +37,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors(myCorsPolicy);
+
 
 app.Run();

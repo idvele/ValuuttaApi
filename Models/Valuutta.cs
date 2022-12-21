@@ -8,4 +8,4 @@ public class Valuutta{
 
     
 }
-//sivuuta deault builderi customilla jossa ID valmiiksi
+//sivuuta default builderi customilla jossa ID valmiiksi
